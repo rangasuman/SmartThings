@@ -3,7 +3,7 @@
  *  This device handler is designed for the Home Depot Hampton Bay or
  *  Home Decorators Collection Universal Ceiling Fan/Light Premier Remote Control model#9943241 
  *
- *  Copyright 2017 Dale Coffing
+ *  Authors: Ranga Pedamallu/Dale Coffing
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
  *  in compliance with the License. You may obtain a copy of the License at:
@@ -64,7 +64,9 @@ X - new icons are unreadable in some states?
 X - new icons are out of scale and too large for 2x2 tiles
  
  *
- */        capability "Actuator"
+ */     
+metadata {
+	capability "Actuator"
         capability "Configuration"
         capability "Refresh"
         capability "Switch"
