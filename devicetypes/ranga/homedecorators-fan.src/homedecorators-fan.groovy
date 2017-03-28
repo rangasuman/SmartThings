@@ -66,6 +66,7 @@ X - new icons are out of scale and too large for 2x2 tiles
  *
  */     
 metadata {
+    definition (name: "HomeDecorators Fan", namespace: "ranga", author: "Ranga Pedamallu") {
 	capability "Actuator"
         capability "Configuration"
         capability "Refresh"
